@@ -8,6 +8,7 @@ def main():
     text1 = get_tag_text(url1, 'h1')
     print(text1)
     text2 = get_tag_text(url1, 'h2')
+    print(text2)
 
 
 def get_tag_text(url, tag):
